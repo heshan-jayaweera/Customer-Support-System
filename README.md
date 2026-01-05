@@ -8,7 +8,7 @@ A **web-based Customer Support System** designed to streamline ticket handling, 
 
   <img src="https://github.com/heshan-jayaweera/Customer-Support-System/blob/abd62f72048554f0d1d9953c32e42c30ad392ba2/home.png" alt="AquaLink Screenshot 1" width="200" height="200"/>
 
-   <img src="https://github.com/heshan-jayaweera/Customer-Support-System/blob/abd62f72048554f0d1d9953c32e42c30ad392ba2/home.png" alt="AquaLink Screenshot 1" width="200" height="200"/>
+   <img src="https://github.com/heshan-jayaweera/Customer-Support-System/blob/8f3d888956c406e4e30223b60d64c483912eece2/features.png" alt="AquaLink Screenshot 1" width="200" height="200"/>
 </div>
 
 ---
