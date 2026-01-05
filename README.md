@@ -4,7 +4,9 @@ A **web-based Customer Support System** designed to streamline ticket handling, 
 
 ---
 <div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
-  <img src="https://github.com/heshan-jayaweera/Aqualink/blob/98e6b29609a77631920232a7ee0ea25f5d09d598/localhost_3000_home.png" alt="AquaLink Screenshot 1" width="200" height="200"/>
+  <img src="https://github.com/heshan-jayaweera/Customer-Support-System/blob/1a59778ca275404dfcfe5bc474f8bfea24a3e4dc/login1.png" alt="AquaLink Screenshot 1" width="200" height="200"/>
+
+  <img src="https://github.com/heshan-jayaweera/Customer-Support-System/blob/1a59778ca275404dfcfe5bc474f8bfea24a3e4dc/login1.png" alt="AquaLink Screenshot 1" width="200" height="200"/>
 </div>
 
 ---
