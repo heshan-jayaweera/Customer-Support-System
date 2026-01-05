@@ -13,7 +13,8 @@
         $phone = $_POST['phone'];
 
 
-        $sql = "INSERT INTO  employee(username,password,F_name,L_name,specialization,email,age,phone) VALUES ('$username','$password','$F_name','$L_name','$specialization','$email', '$age','$phone')";
+        $hashed_password = password_hash($password, PASSWORD_BCRYPT);
+        $sql = "INSERT INTO employee(username,password,F_name,L_name,specialization,email,age,phone) VALUES ('$username','$hashed_password','$F_name','$L_name','$specialization','$email', '$age','$phone')";
 
 
         if ($conn->query($sql) === TRUE) {

@@ -53,7 +53,7 @@
 </head>
 <body>
     <header>
-        <div id="logo"><img src="\GP SLIIT\CSA\download.jpeg"width=50px length=25px></div>
+        <div id="logo"><img src="../CSA/download.jpeg" width="50px" height="25px" alt="Logo"></div>
         <div id="navbar-placeholder"></div>
     </header>
     <div class="below">

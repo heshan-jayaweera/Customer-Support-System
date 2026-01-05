@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FAQ</title>
-    <link rel="stylesheet" href="\GP SLIIT\CSS\faq.css">
-    <link rel="stylesheet" type="text/css" href="\GP SLIIT\CSS\navbar.css">
-    <script src="\GP SLIIT\JS\navbar.js" defer></script>
-    <link rel="stylesheet" type="text/css" href="\GP SLIIT\CSS\footer.css">
-    <script src="\GP SLIIT\JS\footer.js" defer></script>
+    <link rel="stylesheet" href="../CSS/faq.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/navbar.css">
+    <script src="../JS/navbar.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="../CSS/footer.css">
+    <script src="../JS/footer.js" defer></script>
 </head>
 <body>
     <header>
-        <div id="logo"><img src="\GP SLIIT\Admin\download.jpeg" alt="Logo"width='50'length='25'></div>
+        <div id="logo"><img src="../Admin/download.jpeg" alt="Logo" width="50" height="25"></div>
         
         <div id="navbar-placeholder"></div>
     </header>

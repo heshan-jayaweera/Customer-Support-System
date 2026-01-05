@@ -30,7 +30,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     
     if (!empty($password)) {
-        $sql = "UPDATE employee SET username='$username', Password='$password', F_name='$F_name', L_name='$L_name', specialization='$specialization', email='$email', age='$age', phone='$phone' WHERE employee_Id=$id";
+        $hashed_password = password_hash($password, PASSWORD_BCRYPT);
+        $sql = "UPDATE employee SET username='$username', password='$hashed_password', F_name='$F_name', L_name='$L_name', specialization='$specialization', email='$email', age='$age', phone='$phone' WHERE employee_Id=$id";
     } else {
         $sql = "UPDATE employee SET username='$username', F_name='$F_name', L_name='$L_name', specialization='$specialization', email='$email', age='$age', phone='$phone' WHERE employee_Id=$id";
     }

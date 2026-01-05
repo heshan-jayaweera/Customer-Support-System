@@ -1,5 +1,13 @@
 
-<link rel="stylesheet" href="\GP SLIIT\Premium\read.css">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Subscriptions</title>
+    <link rel="stylesheet" href="read.css">
+</head>
+<body>
 <?php
 $servername = "localhost";
 $username = "root";
@@ -31,3 +39,5 @@ if ($result->num_rows > 0) {
 
 $conn->close();
 ?>
+</body>
+</html>

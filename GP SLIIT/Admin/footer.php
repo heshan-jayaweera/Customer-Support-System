@@ -7,6 +7,6 @@
     
 </footer>
 </div>
-<script src="\GP SLIIT\Admin\search.js"></script> 
+<script src="search.js"></script> 
 </body>
 </html>

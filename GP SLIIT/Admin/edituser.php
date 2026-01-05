@@ -26,7 +26,8 @@
         $Age = $_POST['age'];
 
         if (!empty($Password)) {
-            $sql = "UPDATE users SET F_name='$F_name', L_name='$L_name', Email='$Email', Username='$Username', Password='$Password', Age='$Age' WHERE User_id=$id";
+            $hashed_password = password_hash($Password, PASSWORD_BCRYPT);
+            $sql = "UPDATE users SET F_name='$F_name', L_name='$L_name', Email='$Email', Username='$Username', Password='$hashed_password', Age='$Age' WHERE User_id=$id";
         } else {
             $sql = "UPDATE users SET F_name='$F_name', L_name='$L_name', Email='$Email', Username='$Username', Age='$Age' WHERE User_id=$id";
         }

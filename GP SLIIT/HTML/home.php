@@ -13,13 +13,13 @@
 </head>
 <body>
     <header>
-        <div id="logo"><img src="\GP SLIIT\CSA\download.jpeg"width=50px length=25px></div>
+        <div id="logo"><img src="../CSA/download.jpeg" width="50px" height="25px" alt="Logo"></div>
         <div id="navbar-placeholder"></div>
     </header>
     <h1>Welcome to our Online Customer Support Service</h1>
     <h3>Get the best customer experince with our innovative<br>solutions</h3>
-    <button type="button" id="getS" onclick="location.href='/GP%20SLIIT/HTML/ticketpage.php'">Get Started</button>
-    <button type="button" id="getS" onclick="location.href='/GP%20SLIIT/Premium/subscription.php'">Be a Premium</button>
+    <button type="button" id="getS" onclick="location.href='ticketpage.php'">Get Started</button>
+    <button type="button" id="getS" onclick="location.href='../Premium/subscription.php'">Be a Premium</button>
     <hr>
     <div class="container">
         <div class="card">

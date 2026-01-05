@@ -21,7 +21,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         if ($admins[$Username] === $Password) {
             $_SESSION['Username'] = $Username;
             
-                header('Location: \GP SLIIT\Admin\index.php ');
+                header('Location: ../Admin/index.php');
 
             exit();
         } else {
@@ -31,7 +31,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         if ($agent[$Username] === $Password) {
             $_SESSION['Username'] = $Username;
             
-                header('Location: \GP SLIIT\CSA\index.php');
+                header('Location: ../CSA/index.php');
 
             exit();
         } else {

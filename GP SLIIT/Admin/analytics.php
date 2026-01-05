@@ -8,8 +8,8 @@
 <main>
     <h2>Analytics</h2>
     <p>system analytics and statistics.</p>
-    <img src="\GP SLIIT\Admin\2.png"width=600px length=600px>
-    <img src="\GP SLIIT\Admin\customer_service_dashboard.jpg"width=600px length=800px>
+    <img src="2.png" width="600" height="600" alt="Analytics 1">
+    <img src="customer_service_dashboard.jpg" width="600" height="800" alt="Analytics Dashboard">
     
     
 </main>

@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Premium Subscription Form</title>
-    <link rel="stylesheet" href="\GP SLIIT\Premium\styles.css">
-    <script src="\GP SLIIT\Premium\script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
     <?php include 'insert.php';?>
 </head>
 <body>

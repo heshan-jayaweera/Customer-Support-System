@@ -23,7 +23,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             VALUES ('$fullName', '$email', '$password', '$subscriptionPlan', '$cardNumber', '$expiryDate', '$cvv')";
 
     if ($conn->query($sql) === TRUE) {
-        header("Location:\GP SLIIT\HTML\home.php");
+        header("Location: ../HTML/home.php");
 
     } else {
         echo "Error: " . $sql . "<br>" . $conn->error;

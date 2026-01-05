@@ -17,7 +17,7 @@
 <body>
     
     <header>
-        <div id="logo"><img src="\GP SLIIT\Admin\download.jpeg" alt="Logo"width='50'length='25'></div>
+        <div id="logo"><img src="../Admin/download.jpeg" alt="Logo" width="50" height="25"></div>
         <div id="navbar-placeholder"></div>
     </header>
 
@@ -26,7 +26,7 @@
     <div class="container">
         <div class="row">
             <button class="button" onclick="myFunction()">Documentation</button>
-            <button class="button" onclick="location.href='/GP%20SLIIT/HTML/feedback.php'">Feedback</button>
+            <button class="button" onclick="location.href='../HTML/feedback.php'">Feedback</button>
         </div>
 
         <h2>Learn</h2>   
@@ -40,7 +40,7 @@
 
         <div class="row">
             <button class="button" onclick="myFunction_4()">Choose our partner</button>
-            <button class="button" onclick="location.href='/GP%20SLIIT/HTML/ticketpage.php'">Raise a ticket</button>
+            <button class="button" onclick="location.href='../HTML/ticketpage.php'">Raise a ticket</button>
         </div>
     </div>
 

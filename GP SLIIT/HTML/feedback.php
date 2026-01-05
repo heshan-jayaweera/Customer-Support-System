@@ -29,7 +29,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Feedback</title>
     <link rel="stylesheet" href="../CSS/feedback.css">
-    </head><link rel="stylesheet" href="../CSS/navbar.css">
+    <link rel="stylesheet" href="../CSS/navbar.css">
     <script src="../JS/navbar.js" defer></script>
     <link rel="stylesheet" href="../CSS/footer.css">
     <script src="../JS/footer.js" defer></script>
@@ -45,7 +45,7 @@
 <body>
 
     <header>
-        <div id="logo"><img src="\GP SLIIT\Admin\download.jpeg" alt="Logo"width='50'length='25'></div>
+        <div id="logo"><img src="../Admin/download.jpeg" alt="Logo" width="50" height="25"></div>
         <div id="navbar-placeholder"></div>
     </header>
 

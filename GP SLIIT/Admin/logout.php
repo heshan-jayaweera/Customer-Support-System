@@ -5,6 +5,6 @@
     session_destroy();
     
     
-    header("Location: \GP SLIIT\HTML\login.php");
+    header("Location: ../HTML/login.php");
     exit();
 ?>

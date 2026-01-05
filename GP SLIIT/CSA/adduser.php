@@ -11,7 +11,8 @@
         $Age= $_POST['Age'];
         
 
-        $sql = "INSERT INTO users (F_name,L_name,email,username, password,Age) VALUES ('$F_name','$L_name','$email','$username','$password', '$Age')";
+        $hashed_password = password_hash($password, PASSWORD_BCRYPT);
+        $sql = "INSERT INTO users (F_name,L_name,Email,Username,Password,Age) VALUES ('$F_name','$L_name','$email','$username','$hashed_password', '$Age')";
         
         if ($conn->query($sql) === TRUE) {
             echo "New user added successfully";

@@ -21,10 +21,11 @@
         $L_name = $_POST['L_name'];
         $Email = $_POST['email'];
         $Username = $_POST['username'];
-        $Password=$_POST['Password']; 
+        $Password=$_POST['password']; 
         $Age = $_POST['Age'];
 
-        $sql = "UPDATE users SET F_name='$F_name', L_name='$L_name', Email='$Email', Username='$Username', Password='$Password', Age='$Age' WHERE User_id=$id";
+        $hashed_password = password_hash($Password, PASSWORD_BCRYPT);
+        $sql = "UPDATE users SET F_name='$F_name', L_name='$L_name', Email='$Email', Username='$Username', Password='$hashed_password', Age='$Age' WHERE User_id=$id";
         
         if ($conn->query($sql) === TRUE) {
             

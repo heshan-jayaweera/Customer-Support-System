@@ -2,7 +2,7 @@
     include 'header.php'; 
     include 'udbcon.php'; 
 
-    $sql = "SELECT User_id,F_name,L_name ,Email,username,password,Age  FROM users";
+    $sql = "SELECT User_id,F_name,L_name,Email,Username,Password,Age FROM users";
     $result = $conn->query($sql);
 ?>
 
@@ -32,8 +32,8 @@
                                 <td>" . $row["F_name"]. "</td>
                                 <td>" . $row["L_name"]. "</td>
                                 <td>" . $row["Email"]. "</td>
-                                <td>" . $row["username"]. "</td>
-                                <td>" . $row["password"]. "</td>
+                                <td>" . $row["Username"]. "</td>
+                                <td>" . $row["Password"]. "</td>
                                 <td>" . $row["Age"]. "</td>
                                 <td>
                                     <form action='' method='POST' style='display:inline-block;'>
@@ -56,7 +56,7 @@
     </table>
     <p><a href="adduser.php">Add New User</a></p>
 </main>
-<button type="submit" class="subscribe-btn" onclick="location.href='/GP%20SLIIT/Premium/read.php'">Manage Subscription</button> 
+<button type="submit" class="subscribe-btn" onclick="location.href='../Premium/read.php'">Manage Subscription</button> 
 
 <?php
     include 'footer.php'; 

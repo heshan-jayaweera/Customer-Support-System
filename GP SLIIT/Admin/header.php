@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Management</title>
-    <link rel="stylesheet" href="\GP SLIIT\Admin\styles.css">
-    <link rel="stylesheet" type="text/css" href="\GP SLIIT\Admin\userandemp_mgt.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="userandemp_mgt.css">
 
 </head>
 <body>
@@ -13,7 +13,7 @@
         <header>
         <div class="header-left">
                 <div class="logo">
-                    <img src="\GP SLIIT\Admin\download.jpeg" alt="Logo">
+                    <img src="download.jpeg" alt="Logo">
                 </div>
                 <h1 class="dashboard-title">Admin Dashboard</h1> 
             </div>
@@ -27,12 +27,12 @@
         <aside>
             <nav>
                 <ul>
-                <li><a href="\GP SLIIT\Admin\user_mgt.php">User Management</a></li>
-                    <li><a href="\GP SLIIT\Admin\employee_mgt.php">Employee Management</a></li>
-                    <li><a href="\GP SLIIT\Admin\ticket_mgt.php">Ticket Management</a></li>
-                    <li><a href="\GP SLIIT\Admin\system_settings.php">System Settings</a></li>
-                    <li><a href="\GP SLIIT\Admin\reports.php">Reports</a></li>
-                    <li><a href="\GP SLIIT\Admin\analytics.php">Analytics</a></li>
+                <li><a href="user_mgt.php">User Management</a></li>
+                    <li><a href="employee_mgt.php">Employee Management</a></li>
+                    <li><a href="ticket_mgt.php">Ticket Management</a></li>
+                    <li><a href="system_settings.php">System Settings</a></li>
+                    <li><a href="reports.php">Reports</a></li>
+                    <li><a href="analytics.php">Analytics</a></li>
                 </ul>
             </nav>
         </aside>

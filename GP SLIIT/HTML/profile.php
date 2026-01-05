@@ -47,7 +47,7 @@ if (isset($_POST['update_Username'])) {
 }
 
 if (isset($_POST['update_Password'])) {
-    $new_Password = Password_hash($_POST['Password'], PASSWORD_DEFAULT);
+    $new_Password = password_hash($_POST['Password'], PASSWORD_DEFAULT);
     $update_Password_query = "UPDATE users SET Password = ? WHERE User_id = ?";
     $update_Password_stmt = $conn->prepare($update_Password_query);
     $update_Password_stmt->bind_param("si", $new_Password, $User_id);
@@ -82,7 +82,7 @@ if (isset($_POST['delete_account'])) {
 </head>
 <body>
 <header>
-        <div id="logo"><img src="\GP SLIIT\CSA\download.jpeg"width=50px length=25px></div>
+        <div id="logo"><img src="../CSA/download.jpeg" width="50px" height="25px" alt="Logo"></div>
         <div id="navbar-placeholder"></div>
     </header>
 
@@ -143,7 +143,7 @@ if (isset($_POST['delete_account'])) {
 <hr>
 <div class="center-button">
     <!-- <button type="submit" name="premiumupdate" onclick="location.href='\GP SLIIT\Premium\read.php'">Manage Subscription</button> -->
-     <button type="submit" class="subscribe-btn" onclick="location.href='/GP%20SLIIT/Premium/read.php'">Manage Subscription</button>  
+     <button type="submit" class="subscribe-btn" onclick="location.href='../Premium/read.php'">Manage Subscription</button>  
 </div>
 <hr>
 

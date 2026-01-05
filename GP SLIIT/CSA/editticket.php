@@ -5,7 +5,7 @@
     if (isset($_GET['id'])) {
         $id = $_GET['id'];
         
-        $sql = "SELECT * FROM ticket WHERE ticket_Id = $id";
+        $sql = "SELECT * FROM ticket WHERE ticket_id = $id";
         $result = $conn->query($sql);
         
         if ($result->num_rows > 0) {
@@ -21,7 +21,7 @@
         $title = $_POST['title'];
         $category = $_POST['category'];
         
-        $sql = "UPDATE ticket SET title='$title', category='$category' WHERE ticket_Id = $id";
+        $sql = "UPDATE ticket SET title='$title', category='$category' WHERE ticket_id = $id";
         
         if ($conn->query($sql) === TRUE) {
             header("Location: ticket_mgt.php");

@@ -43,7 +43,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-Up</title>
     <link rel="stylesheet" type="text/css" href="../CSS/signup.css">
-    <script src="./JS/signup.js"></script>
+    <script src="../JS/signup.js"></script>
 </head>
 <body>
     <div class="left-section">

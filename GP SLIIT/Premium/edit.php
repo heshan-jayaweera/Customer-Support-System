@@ -1,4 +1,12 @@
-<link rel="stylesheet" href="\GP SLIIT\Premium\edit.css">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Subscription</title>
+    <link rel="stylesheet" href="edit.css">
+</head>
+<body>
 
 <?php
 $servername = "localhost";
@@ -50,3 +58,5 @@ if (isset($_GET['id'])) {
 
 $conn->close();
 ?>
+</body>
+</html>

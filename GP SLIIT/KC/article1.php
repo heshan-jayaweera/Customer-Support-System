@@ -5,24 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Best Customer Service Outsourcing Companies for E-Commerce</title>
-    <link rel="stylesheet" href="\GP SLIIT\KC\articles.css">
-    <link rel="stylesheet" href="\GP SLIIT\KC\footer.css">
-    <script src = "\GP SLIIT\KC\footer.js"></script>
-    <link rel ="stylesheet" href="\GP SLIIT\KC\navbar.css">
-    <script src = "\GP SLIIT\KC\navbar.js"></script>
+    <link rel="stylesheet" href="articles.css">
+    <link rel="stylesheet" href="footer.css">
+    <script src="footer.js"></script>
+    <link rel="stylesheet" href="navbar.css">
+    <script src="navbar.js"></script>
     
     
 </head>
 <body>
     <header>
-        <div id="logo"><img src="\GP SLIIT\Admin\download.jpeg" alt="Logo"width='50'length='25'></div>
+        <div id="logo"><img src="../Admin/download.jpeg" alt="Logo" width="50" height="25"></div>
         <div id="navbar-placeholder"></div>
     </header>
 
     <div class="container">
         <topic class="article-header">
             <h1 class="article-title">Best Customer Service Outsourcing Companies for E-Commerce — Top 5 Companies in 2024</h1>
-            <img src="\GP SLIIT\KC\e com.png" width="80%"alt="Article 1">
+            <img src="e com.png" width="80%" alt="Article 1">
             <p class="article-meta">By <span class="author">John Doe</span> | <span class="date">September 30, 2024</span></p>
         </topic>
 
