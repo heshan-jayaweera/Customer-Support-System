@@ -3,7 +3,11 @@
 A **web-based Customer Support System** designed to streamline ticket handling, user management, and customer interactions through a centralized platform. Built using **PHP, MySQL, HTML, CSS, and JavaScript**, this system supports role-based access and is suitable for organizations of various sizes.
 
 ---
+<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
+  <img src="https://github.com/heshan-jayaweera/Aqualink/blob/98e6b29609a77631920232a7ee0ea25f5d09d598/localhost_3000_home.png" alt="AquaLink Screenshot 1" width="200" height="200"/>
+</div>
 
+---
 ## 📌 Overview
 
 The Customer Support System enables organizations to efficiently manage customer issues, support tickets, employees, and subscriptions. It provides separate dashboards for **Admins**, **Customer Support Agents (CSAs)**, and **Regular Users**, ensuring secure and structured access to system features.
